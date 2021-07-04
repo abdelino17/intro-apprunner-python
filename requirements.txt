@@ -1,0 +1,5 @@
+aiofiles==0.7.0
+fastapi==0.65.3
+Jinja2==3.0.1
+uvicorn==0.14.0
+prometheus-client==0.11.0
