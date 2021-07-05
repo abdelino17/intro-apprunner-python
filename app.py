@@ -28,7 +28,7 @@ def index(request: Request):
 def database():
     with TIMER.labels('/database').time():
         time.sleep(random.uniform(1, 2))
-    return fastapi.responses.HTMLResponse(content="<h3>Completed expensive database operation</h3>")
+    return fastapi.responses.HTMLResponse(content="<h3>Completed expensive database operation from WeShare 2021</h3>")
 
 
 @api.get('/metrics')
